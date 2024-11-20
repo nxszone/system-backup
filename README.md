@@ -47,8 +47,6 @@ The `backup.sh` script is used to create backups of your system's settings, pref
 -   `-a`: Backup application settings (e.g., VS Code, Spotify, Discord)
 -   `-s`: Backup SSH keys
 -   `-p`: Backup package lists (Debian, Arch, Flatpak, Snap)
--   `-f`: Backup fonts
--   `-c`: Backup custom scripts
 -   `-all`: Backup everything (dotfiles, browsers, apps, SSH, packages, fonts, scripts)
 
 
@@ -82,8 +80,6 @@ The `restore.sh` script is used to restore backups from a `.tar.gz` archive or a
 -   `-a`: Restore application settings
 -   `-s`: Restore SSH keys
 -   `-p`: Restore package lists (Debian, Arch, Flatpak, Snap)
--   `-f`: Restore fonts
--   `-c`: Restore custom scripts
 -   `-all`: Restore everything (dotfiles, browsers, apps, SSH, packages, fonts, scripts)
 
 

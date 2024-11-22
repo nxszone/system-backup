@@ -42,9 +42,9 @@ restore_dotfiles() {
 restore_browsers() {
     echo "Restoring browser profiles..."
     restore "$BACKUP_DIR/browsers/.mozilla" "$HOME/"
-    restore "$BACKUP_DIR/browsers/.config/google-chrome" "$HOME/.config/"
-    restore "$BACKUP_DIR/browsers/.config/chromium" "$HOME/.config/"
-    restore "$BACKUP_DIR/browsers/.config/brave-browser" "$HOME/.config/"
+    restore "$BACKUP_DIR/browsers/google-chrome" "$HOME/.config/"
+    restore "$BACKUP_DIR/browsers/chromium" "$HOME/.config/"
+    restore "$BACKUP_DIR/browsers/brave-browser" "$HOME/.config/"
 }
 
 restore_apps() {
